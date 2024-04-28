@@ -1,18 +1,7 @@
 Security Engineering Lab 
 ====================================
 
-This is a web application developed in Python / Flask / SQLite that has two faces.
-
-**GOOD**: Tries to code with secure development best practices in mind.
-
-**BAD**: Tries to code like (possibly) you. :p
-
-Is developed has a laboratory for the following courses:
-
-Secure Development of Securetia (https://www.securetia.com/cursos.html)
-Secure Development of EducaciónIT (https://www.educacionit.com/curso-de-desarrollo-seguro)
-
-But you can use it has you want (MIT License)
+This is a web application developed in Python / Flask / SQLite.
 
 
 OWASP Application Security Verification Standard
@@ -31,9 +20,9 @@ Installation
 
 ::
 
-   git clone https://github.com/soumyamaity/REVA2023.git
+   git clone https://github.com/soumyamaity/CS2024.git
 
-   cd REVA2023
+   cd CS2024
 
    pip3 install --user -r requirements.txt
 
@@ -53,7 +42,7 @@ Features
 Vulnerabilities
 ---------------
 
-Some of the vulnerabilities present on the "BAD" version:
+Some of the vulnerabilities present:
 
 - Cross-Site Scripting (XSS)
 - SQL Injection
@@ -69,7 +58,7 @@ Some of the vulnerabilities present on the "BAD" version:
 Database Initialization
 -----------------------
 
-Both, "BAD" and "GOOD" versions, requires an initialization of the database.
+The application requires an initialization of the database.
 
 This is done with the script "db_init.py" inside each of the directories (bad, and good).
 
